@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "prettier",
+    "security",
+    "@typescript-eslint"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,            // Permite a análise de recursos mais modernos do ECMAScript
+    "sourceType": "module"          // Permite o uso de importações
+  },
+  "ignorePatterns": ["./node_modules/*"],
+  "extends": [
+    "prettier",
+    "eslint:recommended",
+    "plugin:security/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/eslint-recommended"
+  ],
+  "rules": {
+    "prettier/prettier": 2,
+    "no-error-on-unmatched-pattern": "off",
+    "@typescript-eslint/no-explicit-any": "off", // TODO: remover.
+    "no-return-await": "off", 
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"]
+  }
+}
