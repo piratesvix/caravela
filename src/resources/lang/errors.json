@@ -1,0 +1,11 @@
+{
+  "portInUse": "A Porta já está sendo utilizada.",
+  "invalidToken": "Seu token é inválido.",
+  "invalidCredentials": "Credenciais inválidas",
+  "accessTokenExpired": "O Token de acesso expirou.",
+  "noToken": "Nenhum token no cabeçalho de autorização.",
+  "sessionNotMaintained": "Sessão não mantida.",
+  "refreshTokenExpired": "A sessão expirou.",
+  "portRequirePrivilege": "A porta requer privilégios elevados.",
+  "unAuthorized": "Você não está autorizado a realizar esta ação."
+}
