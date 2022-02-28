@@ -1,0 +1,17 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top EditorConfig
+root = true
+
+# estilo de linha unix 
+[*]
+end_of_line = lf
+charset = utf-8
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
+# corresponde aos arquivos específicos como package.json ou .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
