@@ -1,0 +1,14 @@
+{
+  "auth": {
+    "loginSuccess": "Logado com sucesso.",
+    "logoutSuccess": "Desconectado com sucesso.",
+    "invalidCredentials": "Credenciais inválidas",
+    "accessTokenRefreshed": "Token de acesso atualizado com sucesso."
+  },
+  "users": {
+    "insert": "Candidato registrado com sucesso.",
+    "fetch": "Detalhes do candidato obtido com sucesso.",
+    "delete": "Candidato removido com sucesso.",
+    "fetchAll": "Listar candidatos."
+  }
+}
