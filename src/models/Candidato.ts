@@ -3,6 +3,9 @@ import bookshelf from '../config/bookshelf';
 import Table from '../resources/enums/Table';
 
 class Candidato extends bookshelf.Model<Candidato> {
+  static fetchAll() {
+    throw new Error('Method not implemented.');
+  }
   get requireFetch(): boolean {
     return false;
   }
