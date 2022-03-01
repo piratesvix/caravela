@@ -1,6 +1,6 @@
 import Joi from 'joi';
 
-export const userPOSTSchema = Joi.object()
+export const candidatoPOSTSchema = Joi.object()
   .options({ abortEarly: false })
   .keys({
     firstName: Joi.string().min(4).max(125).label('FirstName').required(),
